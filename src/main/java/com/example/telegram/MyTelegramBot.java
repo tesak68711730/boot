@@ -22,8 +22,8 @@ import java.util.Optional;
 
 public class MyTelegramBot extends TelegramLongPollingBot {
 
-    private static final String TOKEN = "5300383978:AAFLoAzuNFtIvWWT0hn9kmrYaD0uM4CyddQ";
-    private static final String USERNAME = "@uassea_xxx_bot";
+    private static final String TOKEN = "you're TOKEN";
+    private static final String USERNAME = "you're USERNAME";
 
     private final CurrencyModeService currencyModeService = CurrencyModeService.getInstance();
     private final CurrencyConversionService currencyConversionService = CurrencyConversionService.getInstance();
